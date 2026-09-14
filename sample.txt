@@ -1,0 +1,2 @@
+Hello! This is the initial line written to the file.
+This line was appended later.
