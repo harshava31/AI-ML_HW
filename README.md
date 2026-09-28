@@ -1,6 +1,6 @@
 # AI & ML Coursework Repository (`AI_ML_HW`)
 
-Welcome to my AI/ML study and homework repository. This project contains organized daily assignments, coding exercises, and projects covering Python fundamentals, NumPy, and Pandas data analysis.
+Welcome to my AI/ML study and homework repository. This project contains organized daily assignments, coding exercises, and projects covering Python fundamentals, NumPy, Pandas data analysis, and Exploratory Data Analysis (EDA) with Matplotlib and Seaborn.
 
 ---
 
@@ -67,13 +67,47 @@ Welcome to my AI/ML study and homework repository. This project contains organiz
 
 ---
 
+### Week 3: Data Visualization & Exploratory Data Analysis (EDA)
+
+* **Day 1: Matplotlib Fundamentals**
+  * Creating basic line plots, bar charts, and scatter plots
+  * Customizing titles, axis labels, legends, line styles, colors, and grid overlays
+  * Exporting high-resolution figures (`plt.savefig()`)
+
+* **Day 2: Advanced Matplotlib & Layouts**
+  * Building multi-panel visualizations using subplots (`plt.subplots`)
+  * Plotting histograms and box plots to inspect data distributions
+  * Fine-tuning axis ticks, limits, and figure margins
+
+* **Day 3: Seaborn & Statistical Graphics**
+  * Categorical and count plots (`sns.countplot`, `sns.barplot`)
+  * Visualizing multi-variable distributions with pair plots (`sns.pairplot`) and box plots
+  * Computing correlation matrices and rendering heatmap visualizations (`sns.heatmap`)
+  * Analyzing right-skewed and normal continuous features (mean vs. median behavior)
+
+* **Day 4: Data Cleaning, Parsing & Outlier Detection**
+  * String normalization, trimming whitespace, and dropping duplicate entries
+  * Identifying numerical outliers using Interquartile Range (IQR) bounds and box plots
+  * Parsing strings to datetimes, stripping symbols for float casting, and ordering categorical variables
+  * Synthesizing key dataset observations backed by visual charts
+
+* **Day 5: Mini EDA Project & Documentation**
+  * End-to-end exploratory analysis on an e-commerce sales dataset
+  * Charting net revenue per product category, discount sensitivity, and metric correlations
+  * Comprehensive project documentation (`README.md`) detailing analytical findings and data cleaning pipelines
+
+---
+
 ## 🚀 How to Run
 
-Execute any Python script from the repository root:
+Execute any Python script or run Jupyter Notebooks from the repository root:
 
 ```bash
 # Week 1 Script Example
 python Week1/Day5/Day5_StudentMarks.py
 
-# Week 2 Script Example
-python Week2/Day5/Day5_MiniDatasetProject.py
+# Week 2 Notebook Launch Example
+jupyter notebook Week2/Day5/Day5_MiniDatasetProject.ipynb
+
+# Week 3 Notebook Launch Example
+jupyter notebook Week3/Day5/Day5_MiniEDAProject.ipynb
