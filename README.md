@@ -1,6 +1,6 @@
 # AI & ML Coursework Repository (`AI_ML_HW`)
 
-Welcome to my AI/ML study and homework repository. This project contains organized daily assignments, coding exercises, and projects covering Python fundamentals, NumPy, Pandas data analysis, and Exploratory Data Analysis (EDA) with Matplotlib and Seaborn.
+Welcome to my AI/ML study and homework repository. This project contains organized daily assignments, coding exercises, interactive Jupyter notebooks, markdown documentation, and projects covering Python fundamentals, NumPy, Pandas data analysis, Exploratory Data Analysis (EDA) with Matplotlib and Seaborn, and foundational Supervised Machine Learning with Scikit-Learn.
 
 ---
 
@@ -98,9 +98,41 @@ Welcome to my AI/ML study and homework repository. This project contains organiz
 
 ---
 
+### Week 4: Scikit-Learn & Supervised Machine Learning Basics
+
+* **Day 1: Scikit-Learn Setup & Data Workflow**
+  * Feature vs. target identification ($X$ and $y$)
+  * Setting up standard Scikit-Learn estimator workflows (`fit`, `predict`, `evaluate`)
+  * Data splitting using `train_test_split` with stratification
+
+* **Day 2: Linear Regression & Continuous Evaluation**
+  * Fitting simple `LinearRegression` models and extracting coefficients
+  * Visualizing regression fit lines against actual data points
+  * Evaluating continuous models using MAE, MSE, RMSE, and $R^2$ metrics
+  * Interpreting model parameters and residuals (`Day2_ModelInterpretation.md`)
+
+* **Day 3: Logistic Regression & Classification Metrics**
+  * Binary classification modeling using `LogisticRegression`
+  * Evaluating model output with Accuracy Score
+  * Constructing Confusion Matrices (TP, TN, FP, FN) and rendering heatmaps
+  * Performance breakdown using Precision, Recall, and F1-Score in Classification Reports
+
+* **Day 4: K-Nearest Neighbors (KNN) & Preprocessing**
+  * Implementing `KNeighborsClassifier` and tuning $K$ parameters
+  * Comparing `StandardScaler` (Z-score normalization) vs. `MinMaxScaler`
+  * Benchmarking Logistic Regression against KNN performance
+  * End-to-end classification practice on the Iris dataset
+
+* **Day 5: Mini ML Project & Repository Integration**
+  * Multi-class classification project on the Wine dataset using KNN
+  * Complete ML pipeline documentation (`Day5_NotebookExplanation.md`)
+  * Final repository sync and commit workflow summary (`Day5_GitSummary.md`)
+
+---
+
 ## 🚀 How to Run
 
-Execute any Python script or run Jupyter Notebooks from the repository root:
+Execute any Python script or launch Jupyter Notebooks from the repository root:
 
 ```bash
 # Week 1 Script Example
@@ -111,3 +143,6 @@ jupyter notebook Week2/Day5/Day5_MiniDatasetProject.ipynb
 
 # Week 3 Notebook Launch Example
 jupyter notebook Week3/Day5/Day5_MiniEDAProject.ipynb
+
+# Week 4 Notebook Launch Example
+jupyter notebook Week4/Day5/Day5_MiniMLProject.ipynb
