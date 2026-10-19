@@ -1,6 +1,6 @@
 # AI & ML Coursework Repository (`AI_ML_HW`)
 
-Welcome to my AI/ML study and homework repository. This project contains organized daily assignments, coding exercises, interactive Jupyter notebooks, markdown documentation, and projects covering Python fundamentals, NumPy, Pandas data analysis, Exploratory Data Analysis (EDA) with Matplotlib and Seaborn, foundational Supervised Machine Learning with Scikit-Learn, and advanced Tree-Based Models & Pipelines.
+Welcome to my AI/ML study and homework repository. This project contains organized daily assignments, coding exercises, interactive Jupyter notebooks, markdown documentation, and projects covering Python fundamentals, NumPy, Pandas data analysis, Exploratory Data Analysis (EDA) with Matplotlib and Seaborn, foundational Supervised Machine Learning with Scikit-Learn, advanced Tree-Based Models & Pipelines, and Unsupervised Learning & Dimensionality Reduction.
 
 ---
 
@@ -159,6 +159,35 @@ Welcome to my AI/ML study and homework repository. This project contains organiz
 
 ---
 
+### Week 6: Unsupervised Learning, Clustering & Dimensionality Reduction
+
+- **Day 1: Introduction to Unsupervised Learning & KMeans**
+  * Reviewing core concepts of unlabeled data and grouping
+  * Implementing `KMeans` clustering fundamentals and cluster assignments
+  * Visualizing cluster formations and centroid coordinates
+
+- **Day 2: Elbow Method & Feature Scaling for Clusters**
+  * Determining optimal cluster count ($K$) using inertia elbow plots
+  * Analyzing statistical summaries of individual cluster groups
+  * Demonstrating the critical impact of feature scaling (`StandardScaler`) on clustering distance metrics
+
+- **Day 3: Dimensionality Reduction with PCA**
+  * Learning Principal Analysis fundamentals for high-dimensional datasets
+  * Projecting complex features into 2D scatter plots
+  * Inspecting cumulative explained variance ratios to optimize information retention
+
+- **Day 4: Anomaly Detection & Outlier Cleaning**
+  * Identifying anomalies using Z-scores and IQR bounds
+  * Computing distance-based outlier checks from cluster centroids
+  * Cleaning real datasets and tracking changes in summary statistics
+
+- **Day 5: Mini Project & Cluster Reporting**
+  * End-to-end Customer Segmentation unsupervised project
+  * Profiling market segments and generating actionable business recommendations (`Day5_ProjectDocs.md`)
+  * Repository sync and git push execution summary (`Day5_GitSummary.md`)
+
+---
+
 ## 🚀 How to Run
 
 Execute any Python script or launch Jupyter Notebooks from the repository root:
@@ -178,3 +207,6 @@ jupyter notebook Week4/Day5/Day5_MiniMLProject.ipynb
 
 # Week 5 Notebook Launch Example
 jupyter notebook Week5/Day5/Day5_MiniProject.ipynb
+
+# Week 6 Notebook Launch Example
+jupyter notebook Week6/Day5/Day5_MiniProject.ipynb
